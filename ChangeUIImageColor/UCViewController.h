@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+VRAlign.h"
+#import "UIImage+VRColor.h"
 
 @interface UCViewController : UIViewController
 

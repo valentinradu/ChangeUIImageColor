@@ -18,6 +18,11 @@
 		B018D8BA16B208BF00311CEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B018D8B916B208BF00311CEF /* Default-568h@2x.png */; };
 		B018D8BD16B208BF00311CEF /* UCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B018D8BC16B208BF00311CEF /* UCViewController.m */; };
 		B018D8C016B208BF00311CEF /* UCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B018D8BE16B208BF00311CEF /* UCViewController.xib */; };
+		B018D8CA16B20E1700311CEF /* gloss.png in Resources */ = {isa = PBXBuildFile; fileRef = B018D8C716B20E1700311CEF /* gloss.png */; };
+		B018D8CB16B20E1700311CEF /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B018D8C816B20E1700311CEF /* gradient.png */; };
+		B018D8CC16B20E1700311CEF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = B018D8C916B20E1700311CEF /* star.png */; };
+		B018D8D016B20FFE00311CEF /* UIView+VRAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = B018D8CF16B20FFE00311CEF /* UIView+VRAlign.m */; };
+		B018D8D316B2126A00311CEF /* UIImage+VRVRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B018D8D216B2126A00311CEF /* UIImage+VRVRColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		B018D8BB16B208BF00311CEF /* UCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCViewController.h; sourceTree = "<group>"; };
 		B018D8BC16B208BF00311CEF /* UCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCViewController.m; sourceTree = "<group>"; };
 		B018D8BF16B208BF00311CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UCViewController.xib; sourceTree = "<group>"; };
+		B018D8C716B20E1700311CEF /* gloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloss.png; sourceTree = "<group>"; };
+		B018D8C816B20E1700311CEF /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		B018D8C916B20E1700311CEF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		B018D8CE16B20FFE00311CEF /* UIView+VRAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VRAlign.h"; sourceTree = "<group>"; };
+		B018D8CF16B20FFE00311CEF /* UIView+VRAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VRAlign.m"; sourceTree = "<group>"; };
+		B018D8D116B2126A00311CEF /* UIImage+VRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VRColor.h"; sourceTree = "<group>"; };
+		B018D8D216B2126A00311CEF /* UIImage+VRVRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VRVRColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,8 @@
 				B018D8BC16B208BF00311CEF /* UCViewController.m */,
 				B018D8BE16B208BF00311CEF /* UCViewController.xib */,
 				B018D8AA16B208BF00311CEF /* Supporting Files */,
+				B018D8CD16B20FDD00311CEF /* extras */,
+				B018D8C616B208D000311CEF /* graphics */,
 			);
 			path = ChangeUIImageColor;
 			sourceTree = "<group>";
@@ -105,6 +119,27 @@
 				B018D8B916B208BF00311CEF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B018D8C616B208D000311CEF /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B018D8C716B20E1700311CEF /* gloss.png */,
+				B018D8C816B20E1700311CEF /* gradient.png */,
+				B018D8C916B20E1700311CEF /* star.png */,
+			);
+			name = graphics;
+			sourceTree = "<group>";
+		};
+		B018D8CD16B20FDD00311CEF /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				B018D8D116B2126A00311CEF /* UIImage+VRColor.h */,
+				B018D8D216B2126A00311CEF /* UIImage+VRVRColor.m */,
+				B018D8CE16B20FFE00311CEF /* UIView+VRAlign.h */,
+				B018D8CF16B20FFE00311CEF /* UIView+VRAlign.m */,
+			);
+			name = extras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +199,9 @@
 				B018D8B816B208BF00311CEF /* Default@2x.png in Resources */,
 				B018D8BA16B208BF00311CEF /* Default-568h@2x.png in Resources */,
 				B018D8C016B208BF00311CEF /* UCViewController.xib in Resources */,
+				B018D8CA16B20E1700311CEF /* gloss.png in Resources */,
+				B018D8CB16B20E1700311CEF /* gradient.png in Resources */,
+				B018D8CC16B20E1700311CEF /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +215,8 @@
 				B018D8B016B208BF00311CEF /* main.m in Sources */,
 				B018D8B416B208BF00311CEF /* UCAppDelegate.m in Sources */,
 				B018D8BD16B208BF00311CEF /* UCViewController.m in Sources */,
+				B018D8D016B20FFE00311CEF /* UIView+VRAlign.m in Sources */,
+				B018D8D316B2126A00311CEF /* UIImage+VRVRColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
